@@ -1,0 +1,7 @@
+from ConfigReader import read
+
+v = read()
+
+
+def getHost():
+    return v["rabbitmq"]["host"]
